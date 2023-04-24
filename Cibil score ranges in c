@@ -1,0 +1,28 @@
+#include<stdio.h>
+Int main()
+{
+   Int cibil score;
+   Printf("enter cibil score:");
+   Scanf("%d", &cibil score);
+   If(cibil score>=750 && cibil score <=900)
+  {
+    Printf("excellent ");
+  }
+  Else if(cibil score>=650 && cibil score<=750)
+  {
+   Printf("good ");
+  }
+  else if(cibil score>=550 && cibil score<=650)
+  {
+   Printf("average");
+  }
+  else if(cibil score>=300 && cibil score<=550)
+  {
+   Printf("poor");
+  }
+  else
+  {
+    Printf("very poor");
+  }
+Return 0;
+}
